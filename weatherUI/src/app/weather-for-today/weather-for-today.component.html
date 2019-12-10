@@ -1,0 +1,62 @@
+
+<div id="background"></div>
+<div id="myContainer">
+    <div id="miniBg"> </div>
+    <div class="locationInfoBox">
+
+        <div id="locationinfo">
+            <div class="headerInfo">
+                <h1 id="locationName" *ngIf="data"> {{data[0]?.applicable_date | date:'EEEE'}}</h1>
+            <h1 id="locationName" *ngIf="data"> {{data[0]?.applicable_date | date}}</h1>
+            </div>
+            
+            
+
+            <table id="testTable">
+                    <tr *ngFor="let dat of data">
+                        <th>
+                            <div class="tableField">
+                                    <h3>Hour: {{dat?.applicable_date | date:'H'}}</h3>
+                                </div>
+                        </th>
+                    
+                    
+                        <th>
+                                <div class="tableField">
+                                    <h3>Temperature:{{dat?.the_temp}}</h3>
+                                </div>
+                            </th>
+                    
+                            <th>
+                                <div class="tableField">
+                                    <h3>Humidity: {{dat?.humidity}}</h3>
+                                </div>
+                            </th>
+                    
+                    
+                            <th>
+                                <div class="tableField">
+                                    <h3>{{dat?.weather_state_name}}</h3>
+                    
+                                </div>
+                            </th>
+                            <th>
+                    
+                    
+                                <div class="tableField">
+                                    <h3>predictability: {{dat?.predictability}}%</h3>
+                                </div>
+                        </th>
+                    </tr>
+            </table>
+
+        </div>
+        <div >
+                
+
+        </div>
+    </div>
+
+    </div>
+
+

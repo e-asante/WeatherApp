@@ -1,0 +1,155 @@
+
+<div id="background"></div>
+<div id="myContainer">
+    <div id="miniBg">
+
+    </div>
+    <div class="locationInfoBox">
+
+        <div id="locationinfo">
+            <h1 id="locationName">{{locWeather?.title}}</h1>
+            <div id="quickInfo1">
+                <div id="temp" class="detailsBox">
+                    <h1>Temperature</h1>
+                    <p>{{locWeather?.consolidated_weather[0].the_temp}}</p>
+                </div>
+                <div id="humid" class="detailsBox">
+                    <h1>Humidity</h1>
+                    <p>{{locWeather?.consolidated_weather[0].humidity}}</p>
+                </div>
+            </div>
+            <div id="quickInfo1">
+                <div id="wind" class="detailsBox">
+                    <h1>Wind</h1>
+                    <p>{{locWeather?.consolidated_weather[0].wind_speed}}</p>
+                </div>
+                <div id="precipitation" class="detailsBox">
+                    <h1>Precipitation</h1>
+                    <p>{{locWeather?.consolidated_weather[0].weather_state_name}}</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="dayView">
+            <div class="quickInfo3">
+                <h1>Weekly Forecast</h1>
+                <div id="day" class="dayDetailsBox">
+                    <div  class="detailsBox">
+                        <h1>Tomorrow</h1>
+                        <p>{{locWeather?.consolidated_weather[1].applicable_date}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Temperature</h1>
+                        <p>{{locWeather?.consolidated_weather[1].the_temp}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Humidity</h1>
+                        <p>{{locWeather?.consolidated_weather[1].humidity}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Wind</h1>
+                        <p>{{locWeather?.consolidated_weather[1].wind_speed}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Precipitation</h1>
+                        <p>{{locWeather?.consolidated_weather[1].weather_state_name}}</p>
+                    </div>
+                </div>
+                <div id="day"  class="dayDetailsBox">
+                    <div class="detailsBox">
+                        <h1>Day3</h1>
+                        <p>{{locWeather?.consolidated_weather[2].applicable_date}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Temperature</h1>
+                        <p>{{locWeather?.consolidated_weather[2].the_temp}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Humidity</h1>
+                        <p>{{locWeather?.consolidated_weather[2].humidity}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Wind</h1>
+                        <p>{{locWeather?.consolidated_weather[2].wind_speed}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Precipitation</h1>
+                        <p>{{locWeather?.consolidated_weather[2].weather_state_name}}</p>
+                    </div>
+                </div>
+                <div id="day"  class="dayDetailsBox">
+                    <div class="detailsBox">
+                        <h1>Day4</h1>
+                        <p>{{locWeather?.consolidated_weather[3].applicable_date}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Temperature</h1>
+                        <p>{{locWeather?.consolidated_weather[3].the_temp}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Humidity</h1>
+                        <p>{{locWeather?.consolidated_weather[3].humidity}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Wind</h1>
+                        <p>{{locWeather?.consolidated_weather[3].wind_speed}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Precipitation</h1>
+                        <p>{{locWeather?.consolidated_weather[3].weather_state_name}}</p>
+                    </div>
+                </div>
+                <div id="day"  class="dayDetailsBox">
+                    <div class="detailsBox">
+                        <h1>Day5</h1>
+                        <p>{{locWeather?.consolidated_weather[4].applicable_date}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Temperature</h1>
+                        <p>{{locWeather?.consolidated_weather[4].the_temp}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Humidity</h1>
+                        <p>{{locWeather?.consolidated_weather[4].humidity}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Wind</h1>
+                        <p>{{locWeather?.consolidated_weather[4].wind_speed}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Precipitation</h1>
+                        <p>{{locWeather?.consolidated_weather[4].weather_state_name}}</p>
+                    </div>
+                </div>
+
+
+                <div id="day"  class="dayDetailsBox">
+                    <div class="detailsBox">
+                        <h1>Day6</h1>
+                        <p>{{locWeather?.consolidated_weather[5].applicable_date}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Temperature</h1>
+                        <p>{{locWeather?.consolidated_weather[5].the_temp}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Humidity</h1>
+                        <p>{{locWeather?.consolidated_weather[5].humidity}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Wind</h1>
+                        <p>{{locWeather?.consolidated_weather[5].wind_speed}}</p>
+                    </div>
+                    <div class="detailsBox">
+                        <h1>Precipitation</h1>
+                        <p>{{locWeather?.consolidated_weather[5].weather_state_name}}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       
+    </div>
+</div>
+
+

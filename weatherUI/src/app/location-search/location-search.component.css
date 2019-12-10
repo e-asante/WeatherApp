@@ -1,0 +1,35 @@
+.locationSearchBox{
+    background-color: #060916af;
+    width: 30%;
+    border-color: black;
+    margin: auto;
+    
+    height: 50vh;
+    text-align: -webkit-center;
+
+    position: relative;
+    top: 40%;
+    
+    
+}
+#background{
+    position: fixed;
+    align-items: center;
+    background-color: #121831;
+    
+    height: 98vh;
+    width: 98vw;
+    
+    
+}
+#miniBg{
+    position: relative;
+    background-image: url('weather1.jpg');
+    background-size:cover;
+    height: 65%;
+    width: 100%;
+}
+#info{
+    height: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
